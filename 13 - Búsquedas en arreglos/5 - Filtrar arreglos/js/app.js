@@ -32,5 +32,5 @@ var resultado = null;
 
 
 resultado =  menu.filter(platillo => platillo.pais == 'México');
-
+console.log(menu.findIndex(platillo => platillo.pais == 'México'));
 console.log(resultado);
